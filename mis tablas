@@ -1,0 +1,20 @@
+CREATE TABLE chat_message (
+  chat_message_id int,
+  to_user_id int,
+  from_user_id int,
+  chat_message_text text,
+  timestamp timestamp,
+  status int);
+
+  CREATE TABLE login (
+  ID int,
+  username varchar(255),
+  password varchar(255)
+);
+
+CREATE TABLE login_details (
+  login_details_id int,
+  user_id int,
+  last_activity timestamp,
+  is_type is_type
+);
